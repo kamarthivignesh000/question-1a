@@ -11,9 +11,9 @@ int add(complex_t num1,complex_t num2)
     a=num1.real+num2.real;
     b= num1.imaginary+num2.imaginary;
     if (b >= 0)
-        printf("Sum of the complex numbers = %d + %di", a,b);
+        printf("Sum of the complex numbers = %f + %fi", a,b);
     else
-        printf("Sum of the complex numbers = %d %di",a,b);
+        printf("Sum of the complex numbers = %f %fi",a,b);
 }
 int sub(complex_t num1,complex_t num2)
 {
@@ -21,9 +21,9 @@ int sub(complex_t num1,complex_t num2)
     a=num1.real-num2.real;
     b=num1.imaginary-num2.imaginary;
     if (b >= 0)
-        printf("Difference of the complex numbers = %d + %di", a,b);
+        printf("Difference of the complex numbers = %f + %fi", a,b);
     else
-        printf("Difference of the complex numbers = %d %di", a,b);
+        printf("Difference of the complex numbers = %f %fi", a,b);
 }
 int mul(complex_t num1,complex_t num2)
 {
@@ -31,9 +31,9 @@ int mul(complex_t num1,complex_t num2)
     a=num1.real*num2.real;
     b=num1.imaginary*num2.imaginary;
     if (b >= 0)
-        printf("Multiplication of the complex numbers = %d + %di", a,b);
+        printf("Multiplication of the complex numbers = %f + %fi", a,b);
     else
-        printf("Multiplication of the complex numbers = %d %di", a,b);
+        printf("Multiplication of the complex numbers = %f %fi", a,b);
 }
 int div(complex_t num1,complex_t num2)
 {
